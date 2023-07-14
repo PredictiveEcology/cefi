@@ -1,0 +1,80 @@
+---
+title: "Initial meeting to brainstorm "
+author: "Eliot McIntire"
+date: "July 14, 2023"
+categories:
+  - Ecological Forecasting
+  - Brainstorming
+  - CEFI
+  - Scoping
+---
+
+## First Brainstorming Meeting
+
+MS Teams  
+Wednesday, June 28, 12-1 PM Eastern Time  
+Meeting ID: 241 539 523 613 Passcode: DKnD9h
+
+On June 28, 2023, a number of people met virtually to begin the conversation about setting up spatial forecasting challenges for the Canadian context. 
+
+Meeting objectives
+We would like to start a conversation about establishing a set of Canadian Spatial Forecasting challenges, borrowing inspiration and tools from https://ecoforecast.org/efi-rcn-forecast-challenges/ to help solve Canadian problems. We have a couple of specific ideas (outlined below), and perhaps you have others.
+
+This meeting will be an initial brainstorming session for those who can attend. We recognize summer is a busy time, and that many cannot attend this initial meeting. Feel free to add thoughts, comments, and indications of interest to this document regardless of whether you can attend the meeting. 
+
+[Live notes from past and ongoing meetings](https://docs.google.com/document/d/1vPOtCOaIcEFiytEw8T9fPXMXRcSVMn-cJYufAyyX-bQ/edit#heading=h.lc3yxglaeuv7)
+
+[Sheet to fill in](https://docs.google.com/spreadsheets/d/1ibVcZBnNVutlQonD3T7sdhI51brLXq4O1ZGD29crXrM/edit#gid=0)
+
+## Agenda
+
+### Why this meeting? Why now?
+
+See detailed notes [here](https://docs.google.com/document/d/1vPOtCOaIcEFiytEw8T9fPXMXRcSVMn-cJYufAyyX-bQ/edit#heading=h.ekixoemqxv7o)
+
+- Meet, brainstorm, initial plan  
+- Who we are? We may have different goals…  
+- Do we need a slightly different forecasting challenge?  
+- What are the interests of this group? 
+- Identifying “achievable” first challenges 
+[Please fill in Google Sheet](https://docs.google.com/spreadsheets/d/1ibVcZBnNVutlQonD3T7sdhI51brLXq4O1ZGD29crXrM/edit#gid=0)
+- What kind of challenges are we looking for?
+
+  - Education 
+  - Abundant data streams, low latency, internet available
+  - Policy relevant 
+  - Maybe abundant data streams, likely high latency, maybe internet available
+  - Improving awareness of public at large and decision makers (specifically)
+
+- Brainstorm
+- The pushback potential
+- Needs 
+
+## Participants at first meeting
+
+Quinn Thomas  
+Amy Greer  
+Laura Pollock  
+John Smith  
+Marie-Josee Fortin  
+Eliot McIntire  
+Josie Hughes  
+Alex Chubaty  
+Stephanie Green  
+Jeremy Kerr  
+Jennifer Sunday  
+Elise Filotas  
+Steve Cumming 
+Ian Eddy  
+Nicola Love  
+Christina Semeniuk  
+Sarah Endicott  
+Carl Boettiger  
+Emma Mendelsohn  
+Jeff Houlahan  
+Céline Boisvenue  
+Sean Basquill  
+Marie-Josee Fortin  
+Ceres Barros  
+Guillaume Blanchet  
+
