@@ -11,6 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - Links.qmd
   page-footer:
     left:
       - text: "This site is currently maintained by Dr. Eliot McIntire, with contributions by Josie Hughes. Powered by Quarto"
@@ -18,17 +19,27 @@ website:
       hypothesis:
         theme: clean
         openSidebar: false
-  google-analytics: "G-1689MGK5S2"
+  
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-1689MGK5S2"
+    anonymize-ip: true
+  open-graph: true
 
 format:
   html:
     theme:
       light: flatly
       dark: darkly
+    fontsize: x-large
     css: styles.css
     smooth-scroll: true
     link-external-newwindow: true
     toc: true
 
-
+body-header: | 
+  ![Logo image](/assets/img/20230702_085913.jpg)
 

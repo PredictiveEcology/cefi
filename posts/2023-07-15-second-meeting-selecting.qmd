@@ -8,7 +8,7 @@ categories:
   - CEFI
 ---
 
-## Selecting
+## Selecting initial set of challenges
 
 MS Teams  
 July 17, 2023 15:30-16:30 (UTC-05:00) Eastern Time (US & Canada).  

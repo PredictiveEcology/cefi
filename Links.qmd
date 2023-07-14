@@ -1,0 +1,18 @@
+---
+title: 'Other Links'
+permalink: /about/
+comments: false
+---
+
+There are a number of ongoing efforts that may be of interest for the ecological forecasting community. Here are links to *some* of those:
+
+- [Ecological Forecasting Initiative](https://www.ecoforecast.org)
+
+- [Predictive Ecology Community](https://predictiveecology.org)
+
+- [Github site for NEON forecasting](https://github.com/eco4cast/neon4cast)
+
+- [Github site for EFI](https://github.com/eco4cast)
+
+
+
