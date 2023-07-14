@@ -18,7 +18,8 @@ website:
       hypothesis:
         theme: clean
         openSidebar: false
-  google-analytics: "UA-58633549-2"
+  google-analytics: "G-1689MGK5S2"
+  
 
 format:
   html:
