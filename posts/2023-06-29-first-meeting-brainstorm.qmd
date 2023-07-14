@@ -1,7 +1,7 @@
 ---
 title: "Initial meeting to brainstorm "
 author: "Eliot McIntire"
-date: "July 14, 2023"
+date: "June 29, 2023"
 categories:
   - Ecological Forecasting
   - Brainstorming
@@ -28,10 +28,10 @@ This meeting will be an initial brainstorming session for those who can attend. 
 
 ## Agenda
 
-### Why this meeting? Why now?
-
 See detailed notes [here](https://docs.google.com/document/d/1vPOtCOaIcEFiytEw8T9fPXMXRcSVMn-cJYufAyyX-bQ/edit#heading=h.ekixoemqxv7o)
 
+
+- Why this meeting? Why now?  
 - Meet, brainstorm, initial plan  
 - Who we are? We may have different goals…  
 - Do we need a slightly different forecasting challenge?  

@@ -1,80 +1,40 @@
 ---
-title: "Initial meeting to brainstorm "
+title: "Selecting initial set of challenges"
 author: "Eliot McIntire"
 date: "July 14, 2023"
 categories:
   - Ecological Forecasting
-  - Brainstorming
+  - Selecting
   - CEFI
-  - Scoping
 ---
 
-## First Brainstorming Meeting
+## Selecting
 
 MS Teams  
-Wednesday, June 28, 12-1 PM Eastern Time  
-Meeting ID: 241 539 523 613 Passcode: DKnD9h
+July 17, 2023 15:30-16:30 (UTC-05:00) Eastern Time (US & Canada).  
+Meeting ID: 259 942 951 464  
+Passcode: qs6D8h 
 
-On June 28, 2023, a number of people met virtually to begin the conversation about setting up spatial forecasting challenges for the Canadian context. 
 
-Meeting objectives
-We would like to start a conversation about establishing a set of Canadian Spatial Forecasting challenges, borrowing inspiration and tools from https://ecoforecast.org/efi-rcn-forecast-challenges/ to help solve Canadian problems. We have a couple of specific ideas (outlined below), and perhaps you have others.
 
-This meeting will be an initial brainstorming session for those who can attend. We recognize summer is a busy time, and that many cannot attend this initial meeting. Feel free to add thoughts, comments, and indications of interest to this document regardless of whether you can attend the meeting. 
+### Meeting objectives
+There were a number of suggestions for possible challenges put forward at the first meeting, and we didn’t have time to get into the details. The goal for our 2nd meeting will be to narrow in on an initial set of challenges. Initial challenges should be problems that have at least one lead who has capacity to clearly define the challenge and work to make it a reality over the coming months. If you have an idea that for whatever reason can’t go ahead in the coming months that doesn’t mean it won’t happen. The near-term goal is to start building a shared infrastructure, community and momentum with a few examples. Additional challenges can be added. 
+
+[A good first step toward clearly defining a challenge is to fill out this spreadsheet](https://docs.google.com/spreadsheets/d/1ibVcZBnNVutlQonD3T7sdhI51brLXq4O1ZGD29crXrM/edit#gid=0)
+We added some details for the fire, leaf area index and bird possibilities as a guide. 
+
+Please feel free to skip this meeting if you aren’t interested in expanding the list of initial challenges beyond the proposed fire, leaf area index and Northern Ontario bird challenges. 
+If you can’t attend but would like to lead an initial challenge let us know.
+For those who cannot attend, the meeting notes will be in this shared document:  [Canadian Spatial Forecasting Challenge(s) Possibilities And Next Steps - Google Docs](https://docs.google.com/document/d/1vPOtCOaIcEFiytEw8T9fPXMXRcSVMn-cJYufAyyX-bQ/edit#heading=h.lc3yxglaeuv7)
+
+Feel free to contribute to the doc whether or not you attend meetings.
+
+## All ongoing documents
 
 [Live notes from past and ongoing meetings](https://docs.google.com/document/d/1vPOtCOaIcEFiytEw8T9fPXMXRcSVMn-cJYufAyyX-bQ/edit#heading=h.lc3yxglaeuv7)
 
 [Sheet to fill in](https://docs.google.com/spreadsheets/d/1ibVcZBnNVutlQonD3T7sdhI51brLXq4O1ZGD29crXrM/edit#gid=0)
 
-## Agenda
+## Detailed Agenda
 
-### Why this meeting? Why now?
-
-See detailed notes [here](https://docs.google.com/document/d/1vPOtCOaIcEFiytEw8T9fPXMXRcSVMn-cJYufAyyX-bQ/edit#heading=h.ekixoemqxv7o)
-
-- Meet, brainstorm, initial plan  
-- Who we are? We may have different goals…  
-- Do we need a slightly different forecasting challenge?  
-- What are the interests of this group? 
-- Identifying “achievable” first challenges 
-[Please fill in Google Sheet](https://docs.google.com/spreadsheets/d/1ibVcZBnNVutlQonD3T7sdhI51brLXq4O1ZGD29crXrM/edit#gid=0)
-- What kind of challenges are we looking for?
-
-  - Education 
-  - Abundant data streams, low latency, internet available
-  - Policy relevant 
-  - Maybe abundant data streams, likely high latency, maybe internet available
-  - Improving awareness of public at large and decision makers (specifically)
-
-- Brainstorm
-- The pushback potential
-- Needs 
-
-## Participants at first meeting
-
-Quinn Thomas  
-Amy Greer  
-Laura Pollock  
-John Smith  
-Marie-Josee Fortin  
-Eliot McIntire  
-Josie Hughes  
-Alex Chubaty  
-Stephanie Green  
-Jeremy Kerr  
-Jennifer Sunday  
-Elise Filotas  
-Steve Cumming 
-Ian Eddy  
-Nicola Love  
-Christina Semeniuk  
-Sarah Endicott  
-Carl Boettiger  
-Emma Mendelsohn  
-Jeff Houlahan  
-Céline Boisvenue  
-Sean Basquill  
-Marie-Josee Fortin  
-Ceres Barros  
-Guillaume Blanchet  
-
+TBD
