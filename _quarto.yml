@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CEFI Ecological Forecasting Challenges"
+  description: "A site to bring together Canadian researchers interested in ecological forecasting challenges"
+  navbar:
+    search: true
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  page-footer:
+    left:
+      - text: "This site is currently maintained by Dr. Eliot McIntire, with contributions by Josie Hughes. Powered by Quarto"
+  comments:
+      hypothesis:
+        theme: clean
+        openSidebar: false
+  google-analytics: "UA-58633549-2"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    smooth-scroll: true
+    link-external-newwindow: true
+    toc: true
+
+
+
