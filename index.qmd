@@ -3,9 +3,8 @@ title: "CEFI Ecological Forecasting Challenges"
 listing:
   contents: posts
   sort: "date desc"
-  type: table
+  type: default
   categories: true
-  fields: [image, date, title, author, reading-time]
 page-layout: full
 title-block-banner: assets/img/20230709_144438_flat2.jpg
 ---
@@ -13,9 +12,9 @@ title-block-banner: assets/img/20230709_144438_flat2.jpg
 
 Welcome to the website of the Ecological Forecasting Challenges, part of the [Canadian Ecological Forecasting Initiative](https://canadianefi.weebly.com/)
 
-We are updating these pages over the next days; please stay tuned.
+We will updating these pages as the project evolves; please stay tuned.
 
-## Latest news
+## Latest posts
 
 ::: {#posts-listings}
 :::

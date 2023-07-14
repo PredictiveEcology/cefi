@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "CEFI Ecological Forecasting Challenges",
     "section": "",
-    "text": "Welcome to the website of the Ecological Forecasting Challenges, part of the Canadian Ecological Forecasting Initiative\nWe are updating these pages over the next days; please stay tuned."
+    "text": "Welcome to the website of the Ecological Forecasting Challenges, part of the Canadian Ecological Forecasting Initiative\nWe will updating these pages as the project evolves; please stay tuned."
   },
   {
     "objectID": "index.html#intro",
@@ -96,5 +96,12 @@
     "title": "Other Links",
     "section": "",
     "text": "There are a number of ongoing efforts that may be of interest for the ecological forecasting community. Here are links to some of those:\n\nEcological Forecasting Initiative\nPredictive Ecology Community\nGithub site for NEON forecasting\nGithub site for EFI"
+  },
+  {
+    "objectID": "index.html#latest-posts",
+    "href": "index.html#latest-posts",
+    "title": "CEFI Ecological Forecasting Challenges",
+    "section": "Latest posts",
+    "text": "Latest posts"
   }
 ]
