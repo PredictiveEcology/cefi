@@ -34,12 +34,9 @@ format:
     theme:
       light: flatly
       dark: darkly
-    fontsize: x-large
     css: styles.css
     smooth-scroll: true
     link-external-newwindow: true
     toc: true
 
-body-header: | 
-  ![Logo image](/assets/img/20230702_085913.jpg)
 

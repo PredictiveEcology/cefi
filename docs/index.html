@@ -74,9 +74,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -119,6 +119,13 @@ cookieconsent.run({
 </script> 
   
 <style>html{ scroll-behavior: smooth; }</style>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean",
+  "openSidebar": false
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
 <style>
 
       .quarto-title-block .quarto-title-banner {
@@ -163,7 +170,7 @@ background-size: cover;
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Links.html" rel="" target="">
- <span class="menu-text">About</span></a>
+ <span class="menu-text">Other Links</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -220,99 +227,90 @@ background-size: cover;
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Ecological Forecasting,Selecting,CEFI" data-listing-date-sort="1689318000000" data-listing-file-modified-sort="1689359206017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/2023-07-15-second-meeting-selecting.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="body">
-<a href="./posts/2023-07-15-second-meeting-selecting.html">
-<h3 class="no-anchor listing-title">
-Selecting initial set of challenges
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ecological Forecasting'); return false;">
-Ecological Forecasting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Selecting'); return false;">
-Selecting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('CEFI'); return false;">
-CEFI
-</div>
-</div>
-<a href="./posts/2023-07-15-second-meeting-selecting.html">
-<div class="listing-description">
-MS Teams<br>
-July 17, 2023 15:30-16:30 (UTC-05:00) Eastern Time (US &amp; Canada).<br>
-Meeting ID: 259 942 951 464<br>
-Passcode: qs6D8h
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2023-07-15-second-meeting-selecting.html">
-<div class="listing-date">
-Jul 14, 2023
-</div>
-<div class="listing-author">
-Eliot McIntire
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Ecological Forecasting,Brainstorming,CEFI,Scoping" data-listing-date-sort="1688022000000" data-listing-file-modified-sort="1689357271217" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/2023-06-29-first-meeting-brainstorm.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2023-06-29-first-meeting-brainstorm.html">
-<h3 class="no-anchor listing-title">
-Initial meeting to brainstorm
-</h3>
-<div class="listing-subtitle">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
+<th>
+Reading Time
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Ecological Forecasting,Selecting,CEFI" data-listing-date-sort="1689318000000" data-listing-file-modified-sort="1689359206017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Selecting initial set of challenges" data-listing-filename-sort="2023-07-15-second-meeting-selecting.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<span class="listing-date">Jul 14, 2023</span>
+</td>
+<td>
+<a href="./posts/2023-07-15-second-meeting-selecting.html" class="title listing-title">Selecting initial set of challenges</a>
+</td>
+<td>
+<span class="listing-author">Eliot McIntire</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Ecological Forecasting,Brainstorming,CEFI,Scoping" data-listing-date-sort="1688022000000" data-listing-file-modified-sort="1689357271217" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Initial meeting to brainstorm" data-listing-filename-sort="2023-06-29-first-meeting-brainstorm.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<span class="listing-date">Jun 29, 2023</span>
+</td>
+<td>
+<a href="./posts/2023-06-29-first-meeting-brainstorm.html" class="title listing-title">Initial meeting to brainstorm</a>
+</td>
+<td>
+<span class="listing-author">Eliot McIntire</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+</tbody>
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ecological Forecasting'); return false;">
-Ecological Forecasting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Brainstorming'); return false;">
-Brainstorming
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('CEFI'); return false;">
-CEFI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Scoping'); return false;">
-Scoping
-</div>
-</div>
-<a href="./posts/2023-06-29-first-meeting-brainstorm.html">
-<div class="listing-description">
-MS Teams<br>
-Wednesday, June 28, 12-1 PM Eastern Time<br>
-Meeting ID: 241 539 523 613 Passcode: DKnD9h
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2023-06-29-first-meeting-brainstorm.html">
-<div class="listing-date">
-Jun 29, 2023
-</div>
-<div class="listing-author">
-Eliot McIntire
-</div>
-</a>
-</div>
-</div>
-</div>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
